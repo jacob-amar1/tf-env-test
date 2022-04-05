@@ -1,4 +1,5 @@
 module "test" {
-  source = "git::git@github.com:jacob-amar1/tf-test.git"
+  source = "{{ .Env.env }}"
   random_pets_count = var.random_pets_count
+  test              = var.test
 }

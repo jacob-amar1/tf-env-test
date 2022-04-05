@@ -1,0 +1,4 @@
+envs:
+  nvd1: "git::git@github.com:jacob-amar1/tf-test.git"
+  nvq1: "git::git@github.com:jacob-amar1/tf-test.git?ref=0.0.5"
+  nvp1: "git::git@github.com:jacob-amar1/tf-test.git?ref=0.0.1"
