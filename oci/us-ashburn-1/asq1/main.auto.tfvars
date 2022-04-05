@@ -1,0 +1,1 @@
+random_pets_count = 3
